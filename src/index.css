@@ -1,0 +1,57 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-image:url(assets/Bgd_img_pomu.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+
+  /*OPTIONAL*/
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+
+}
+
+.clock-container{
+  backdrop-filter: blur(2px);
+  width: 50vw;
+  padding: 10px 0;
+
+}
+
+.clock{
+  color: hsla(162, 87%,56%);
+  font-size: 6rem;
+  font-weight: bold;
+  font-family: monospace;
+  text-align: center;
+  -webkit-text-stroke: 3px hsla(162, 87%, 26%, 0.779);
+  text-shadow: 3px 3px 5px hsla(0,0%, 50%, 0.5);
+}
+
+.clock-btn{
+  width: 200px;
+  height: 50px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0px 5px;
+  -webkit-text-stroke: 1px hsla(162, 87%, 26%, 0.779);
+  background-color: hsla(162, 87%, 56%, 0.779);
+  border-color:  hsla(162, 87%, 26%, 0.779);
+  border-radius: 5px;
+  color: hsl(53, 91%, 82%);
+  cursor: pointer;
+}
+
+.clock-btn:hover{
+  background-color: hsla(162, 87%, 46%, 0.779);
+  border-color:  hsla(162, 87%, 16%, 0.779);
+  color: hsl(53, 91%, 82%);
+}
